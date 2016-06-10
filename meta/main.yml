@@ -1,0 +1,7 @@
+---
+galaxy_info:
+  author: Raul Mesa Ros
+  description: Start a docker container with an apache server and phalcon 2 framework installed
+  license: MIT
+  min_ansible_version: 1.2
+dependencies: []

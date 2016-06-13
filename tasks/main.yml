@@ -6,7 +6,7 @@
   docker:
     name: "{{ webserver_container_name }}"
     image: szeist/phalcon-apache2
-    state: started
+    state: reloaded
     ports:
       - "80:80"
     volumes:

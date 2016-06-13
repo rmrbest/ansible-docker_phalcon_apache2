@@ -4,4 +4,15 @@ galaxy_info:
   description: Start a docker container with an apache server and phalcon 2 framework installed
   license: MIT
   min_ansible_version: 1.2
+  platforms:
+  - name: Ubuntu
+    versions:
+      - precise
+      - raring
+      - saucy
+      - trusty
+  categories:
+    - development
+    - packaging
+    - system      
 dependencies: []
